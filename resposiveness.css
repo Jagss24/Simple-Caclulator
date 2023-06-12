@@ -30,7 +30,7 @@
 }
 
 /* For mobiles */
-@media (max-width:440px) {
+@media (max-width:440px) and (min-width: 0px) {
     .body {
         width: 100% !important;
     }
