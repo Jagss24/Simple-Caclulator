@@ -1,0 +1,71 @@
+/* For Tablets */
+@media (max-width:1000px) and (min-width:440px) {
+    .body {
+        width: 100%;
+    }
+
+    .outputconsole {
+        position: relative;
+        top: 200px;
+    }
+
+    .calci {
+        position: absolute;
+        bottom: 0px;
+    }
+
+    input {
+        height: 140px;
+        font-size: 35px;
+    }
+
+    .symbol {
+        font-size: 35px;
+    }
+
+    .outputconsole #result {
+        font-size: 50px;
+    }
+
+}
+
+/* For mobiles */
+@media (max-width:440px) {
+    .body {
+        width: 100% !important;
+    }
+
+    .outputconsole {
+        position: relative;
+        top: 200px;
+    }
+
+    .outputconsole #result {
+        font-size: 50px;
+    }
+
+    .calci {
+        position: absolute;
+        bottom: 0px;
+    }
+
+    input {
+        padding: 0 10px;
+        height: 140px;
+        font-size: 35px;
+        border: 1px solid gray;
+    }
+
+    .symbol {
+        font-size: 35px;
+    }
+
+    .brace {
+        padding: 0 10px;
+    }
+
+    .output {
+        width: 100% !important;
+    }
+
+}
